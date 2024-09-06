@@ -1,0 +1,8 @@
+file= open('sample.txt','r')
+print(file.read())
+file.close()
+file2 = open('sample.txt','w')
+file2.write("I am Krish from Class 9")
+file2.close()
+file3=open('sample.txt','a')
+file3.write("\n My favourite subject is Maths")
